@@ -1,0 +1,134 @@
+video{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    z-index: -100;
+    opacity: 0.4;
+}
+
+.cover{
+    background: black;
+    height: 550px;
+}
+
+.content{
+    position: absolute;
+    top:133px;   
+    color: white;
+    margin: auto;
+}
+
+.button-div{
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.active-button{
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 16px 20px;
+    color: #000;
+    margin-left: 5px;
+    margin-right:5px;
+}
+
+.button{
+    border: none;
+    border-radius: 50px;
+    background: rgba(0,0,0,0.5);
+    padding: 16px 20px;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    margin-left: 5px;
+    margin-right:5px;
+
+}
+
+.button:hover{
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 16px 20px;
+    color: #000;
+    transition: all 0.3s ease-in-out;
+    margin-left: 5px;
+    margin-right:5px;
+}
+
+.cover-heading{
+    max-width: 40%;
+    margin-top: 34px;
+    font-size: 32px;
+}
+
+.cover-text{
+    max-width: 55%;
+}
+
+.textbox{
+    padding: 28px 45px 28px 55px;
+    border-radius: 50px;
+    width: 60%;
+    height: 40px;
+    max-width: 55%;
+}
+
+.outline-btn{
+    transition: all 0.2s ease-in-out;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 50px;
+    color: #fff;
+    background-color: transparent;
+    padding: 6px 15px;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.link{
+    color: #6e6d7a !important;
+    font-weight:500;
+    font-size:14px;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+.container-fluid{
+    max-width: 93%;
+}
+
+.share-btn{
+    border: none;
+    border-radius: 8px;
+    background: #ea4c89;
+    cursor: pointer;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    height: 40px;
+    padding: 10px 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.option-dropdown{
+    background: white;
+    border: 1px solid #bbb !important;
+    width:120px;
+    border-radius: 10px;
+}
+
+
+.search-button{
+    position: absolute;
+    margin-top: -37px;
+    color: grey;
+    margin-left: -286px;
+}
+
+.img-card{
+    border-radius: 15px !important;
+}
